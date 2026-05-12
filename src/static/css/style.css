@@ -23,7 +23,7 @@ object-fit: contain;
 display: block;
 margin: 10px auto 0;
 border-radius: 5px;
-background-image: url("./ui/spritesheet.webp");
+background-image: url("ui/spritesheet.webp");
 background-repeat: no-repeat;
 background-size: 352px auto;
 }
