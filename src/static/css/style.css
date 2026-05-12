@@ -19,13 +19,15 @@ margin: 0 auto
 .sprite {
 width: 88px; 
 height: 88px;
-object-fit: contain; 
-display: block;
 margin: 10px auto 0;
 border-radius: 5px;
 background-image: url("ui/spritesheet.webp");
-background-repeat: no-repeat;
-background-size: 352px auto;
+transition-duration: 0.7s;
+cursor: pointer
+}
+
+.sprite:hover {
+    opacity: 0.8
 }
 
 .fondo-verde, .btn-primary { background-color: #73b21b !important; }
